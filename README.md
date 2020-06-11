@@ -27,9 +27,8 @@ Access swagger at `http://localhost:8080/swagger-ui.html#`
 
 ### Testing the application deployed in AWS
 
-Access swagger at `http://todoandbracketvalidatorapi.ap-southeast-2.elasticbeanstalk.com:8080/swagger-ui.html#`
+Access swagger at http://todoandbracketvalidatorapi.ap-southeast-2.elasticbeanstalk.com:8080/swagger-ui.html
 
-http://todoandbracketvalidatorapi.ap-southeast-2.elasticbeanstalk.com:8080/swagger-ui.html
 
 #### Create a new todo
 
