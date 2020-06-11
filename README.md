@@ -1,7 +1,7 @@
 ## Implementation Details
 
 - I have used an H2 database for persistence.
-- Application is deployed using AWS Elastic bean stalk. It is pretty much straight forward however I had 
+- Application is deployed using AWS Elastic bean stalk. The configuration of bean stalk is straight forward however I had 
 to change the security roles associated with the EC2 instance to allow traffic to reach 8080. 
 
 ### How can I make this application better ?. 
@@ -12,6 +12,7 @@ However, I would do the following things differently if I were spending more tim
 - [Use ECS to deploy the application rather than Elastic bean stalk & make this application CI/CD enabled](https://github.com/ntarunmenon/spring-boot-docker-ecs).   
 - I would use `PostGreSql` as a database and then write tests using [TestContainers](https://www.testcontainers.org/)
 - [Use cloud formation to automate infrastructure](https://ntarunmenon.gitlab.io/my-blog/2020/04/26/reference-aws-architecture-spring-boot.html)  
+- I have used `actuator` to system health status but have not configured it to match the exact API path given in the test  
 
 ## Running and testing the application.
 
