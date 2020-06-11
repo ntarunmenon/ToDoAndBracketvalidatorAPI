@@ -1,0 +1,2 @@
+insert into todo(id,created_At,text,completed) values (100,CURRENT_TIMESTAMP(),'This is a test record with Id 100','N');
+insert into todo(id,created_At, text,completed) values (200,CURRENT_TIMESTAMP(),'This is a test record with Id 200','N');
