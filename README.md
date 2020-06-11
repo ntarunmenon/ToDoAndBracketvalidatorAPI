@@ -39,7 +39,7 @@ curl -X POST "http://todoandbracketvalidatorapi.ap-southeast-2.elasticbeanstalk.
 #### PATCH existing todo
 
 ```
-curl -X PATCH "http://localhost:8080/todo/1" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"isCompleted\": false, \"text\": \"string\"}"
+curl -X PATCH "http://todoandbracketvalidatorapi.ap-southeast-2.elasticbeanstalk.com:8080/todo/1" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"isCompleted\": false, \"text\": \"string\"}"
 ```
 #### GET existing todo
 
