@@ -12,11 +12,17 @@ public class TasksServiceTest {
 
     @Test
     public void testBalancedString() {
-        assertTrue(tasksService.isBalanced("{{}}"));
+        assertTrue(tasksService.isBalanced("{222{arunmenon}asss}"));
     }
 
     @Test
-    public void testUnBalancedString() {
+    public void testUnBalancedString_1() {
         assertFalse(tasksService.isBalanced("{{}"));
     }
+
+    @Test
+    public void testUnBalancedString_2() {
+        assertFalse(tasksService.isBalanced("{[}]"));
+    }
+
 }
