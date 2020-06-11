@@ -1,3 +1,17 @@
+## Implementation Details
+
+- I have used an H2 database for persistence.
+- Application is deployed using AWS Elastic bean stalk. It is pretty much straight forward however I had 
+to change the security roles associated with the EC2 instance. 
+
+### How can I make this application better ?. 
+
+Since this is a test I have chosen not to spend too long over engineering. 
+However, I would do the following things differently if I were spending more time on this application.
+
+- [Use ECS to deploy the application rather than Elastic bean stalk & make this application CI/CD enabled](https://github.com/ntarunmenon/spring-boot-docker-ecs).   
+-  I would use `PostGresSQL` as a database and then write tests using [TestContainers](https://www.testcontainers.org/)
+    
 ## Running and testing the application.
 
 ### Running the application in local
