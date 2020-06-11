@@ -59,3 +59,8 @@ curl "http://todoandbracketvalidatorapi.ap-southeast-2.elasticbeanstalk.com:8080
 ```
 curl -X GET "http://todoandbracketvalidatorapi.ap-southeast-2.elasticbeanstalk.com:8080/tasks/validateBrackets?input=(" 
 ```
+#### System status
+
+```
+curl -X GET "http://todoandbracketvalidatorapi.ap-southeast-2.elasticbeanstalk.com:8080/actuator/status" 
+```
