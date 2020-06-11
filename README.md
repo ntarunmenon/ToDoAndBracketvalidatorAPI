@@ -13,6 +13,7 @@ However, I would do the following things differently if I were spending more tim
 - I would use `PostGreSql` as a database and then write tests using [TestContainers](https://www.testcontainers.org/)
 - [Use cloud formation to automate infrastructure](https://ntarunmenon.gitlab.io/my-blog/2020/04/26/reference-aws-architecture-spring-boot.html)  
 - I have used `actuator` to system health status but have not configured it to match the exact API path given in the test  
+- Secure the API using `BASIC` authentication and Spring security.
 
 ## Running and testing the application.
 
